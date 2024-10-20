@@ -1,3 +1,17 @@
+Fork of ffmpeg-rockchip for use in StumpCam project.
+
+Follow
+
+https://docs.radxa.com/en/rock5/rock5b/app-development/rtsp
+
+to install , do NOT compile rga but follow above guide, apart from adding SRT support (needs libsrt compiled from sourece , repo below) and liffreetype for text overlays.
+
+https://github.com/Haivision/srt
+
+TODO:
+Compile as above to binary and make available for download. 
+
+
 ffmpeg-rockchip
 =============
 This project aims to provide full hardware transcoding pipeline in FFmpeg CLI for Rockchip platforms that support MPP ([Media Process Platform](https://github.com/rockchip-linux/mpp)) and RGA ([2D Raster Graphic Acceleration](https://github.com/airockchip/librga)). This includes hardware decoders, encoders and filters. A typical target platform is RK3588/3588s based devices.
